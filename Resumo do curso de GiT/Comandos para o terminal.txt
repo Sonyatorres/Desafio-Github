@@ -1,0 +1,17 @@
+Comandos básico para um bom desempenho num terminal:
+
+*C:\Users\sonya>dir  - lista todas as pastas que tem no computador
+
+*C:\Users\sonya>cd /  enter-  vc coloca o diretório que vc quer, por ex: o C e ele lista tudo que tem dentro desse diretório. 
+
+*Se eu colocar » C:\> ele lista as pastas do diretório C
+
+*Se eu quiser entrar na pasta Windows » C:\>cd Windows 
+
+*Se eu quiser listas todas as pastas do Windows, faço » C:\Windows>dir
+
+*Se eu quiser voltar pra onde eu estava no começo eu dou o comando cd.. enter e ele volta » C:\Windows>cd .. 
+
+- C:\>cls » limpa a tela, tirando tudo o que tinha pra trás
+- TAB no teclado ele tem a função de auto completar as coisas ex: cd W(colocar o W maiúsculo ele completa com o indows).
+- c:\>mkdir ( cria uma pasta) enter ex: c:\>mkdir worspace

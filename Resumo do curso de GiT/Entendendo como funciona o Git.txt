@@ -1,0 +1,25 @@
+ENTENDENDO COMO FUNCIONA O GIT :
+
+- 1- SHA 1
+
+Significa Secure hash algorithm - é um conjunto de funções hash criptográficas projetadas pela agência nacional de segurança dos EUA.
+
+A encriptação gera um conjunto de characteres de identificação de 40 digitos, ele é único. É uma forma curta de representar um arquivo.
+
+- 2- OBJETOS FUNDAMENTAIS
+
+BLOBS -possui \0-  os arquivos ficam guardados dentro dele e ele possui metadados. Ele só guarda os caracteres do sha1.
+
+TREES(árvore) - possui \0-  ela armazena os blobs e tbém guarda o nome do arquivo. Ela é responsável de montar as estrutura onde fica os arquivos. Ela pode apontar pra um blobs ou pra outra árvore.
+
+- 3- COMMITS
+
+Ele junta tudo que esta sendo feito.
+
+Ele aponta para: árvore, parente, autor , mensagem e timestamp ele possui um carimbo onde leva o hr, a data de qdo ele foi criado.
+
+Ele tbém possui um sha1 com metadados.
+
+- 4- SISTEMA DISTRIBUIDO SEGURO e SEGURANÇA
+
+Ele é muito confiável, por que não tem como ser alterado e não deixar algum rastro, por que no momento que alteramos algo, alteramos todo o código daquele commits. E faz com que todo o sistema seja muito seguro e confiavel.
