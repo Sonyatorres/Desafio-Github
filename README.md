@@ -1,5 +1,5 @@
 # Desafio Git-GitHub - DIO.
-Criando seu Primeiro Repositório no GitHub com o Git Bash - Digital Innovation On
+Criando meu Primeiro Repositório no GitHub com o Git Bash - Digital Innovation On
 
 ## Links Úteis 
 [Sintaxes básicas de Markdown](https://www.markdownguide.org/getting-started/)
