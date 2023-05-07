@@ -1,0 +1,11 @@
+
+
+ ** GIT INIT ** - quando usamos ele, estamos criando um repositório dentro daquela pasta.
+
+- Unmodified - é o arquivo que não sofreu nenhuma modificação.
+
+- Modified - é o arquivo que sofreu modificação, e a forma que é descoberto é através do SHA1, que fica modificado no sistema.
+
+- Staged - são os arquivos que estão se preparando para entrar no commit.
+
+- Git status - um comando que será usado como muita frequência pois ele da o status sobre aquele arquivo.

@@ -1,0 +1,27 @@
+
+
+ ** Vamos usar o arquivo *MARKDOWN*, é uma forma mais humana de escrever em html, temos que baixar o programa *Typora* pra poder rodar o arquivo.
+
+- Para ficar em negrito vc usa ** escreve**, dessa forma o texto ficará em negrito.
+
+- Se quiser que o texto fique itálico, _*escreve*_ e já ficará.
+
+- Quando quiser colocar emotions, é só colocar : 
+escreve o nome do emotion »» ex- gato : escreve 🐈 que já vai aparecer
+
+- No Markdown onde esta escrito ajuda > markdown reference - explica tudo sobre ele , como usar e quais tags usar, muito bom mesmo.
+
+
+ ** Depois que eu criei, volto para o Git bash para criar o 1 commit que vai ser assim **:
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace/livro-receitas (master)
+$ git add *            * »» uso ele para adicionar algo que foi modificado ou que precisa ser adicionado a mais no processo
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace/livro-receitas (master)
+$ git commit -m "commit inicial"
+
+[master (root-commit) ] commit inicial 
+1 file changed, 2 insertions(+)
+create mode  [teste.md](http://teste.md/)
+
+ ** Nós criamos nosso Commit Inicial ** ( vai aparecer a numeração do commit)

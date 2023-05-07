@@ -1,4 +1,6 @@
-Comandos básico para um bom desempenho num terminal:
+
+
+ ** Comandos básico para um bom desempenho num terminal**:
 
 *C:\Users\sonya>dir  - lista todas as pastas que tem no computador
 
@@ -14,4 +16,34 @@ Comandos básico para um bom desempenho num terminal:
 
 - C:\>cls » limpa a tela, tirando tudo o que tinha pra trás
 - TAB no teclado ele tem a função de auto completar as coisas ex: cd W(colocar o W maiúsculo ele completa com o indows).
-- c:\>mkdir ( cria uma pasta) enter ex: c:\>mkdir worspace
+- C:\>mkdir ( cria uma pasta) enter ex: c:\>mkdir worspace
+
+
+ ** Criando arquivos dentro dessa pasta:
+
+c:\workspace>echo(serve apenas para printa de volta a palavra ou texto que eu criei no terminal) ex: hello( esse é o arquivo) - dou enter »» hello
+
+c:\workspace >echo hello> hello.txt ( se eu der enter ele vai procurar se tem alguma pasta com esse nome, se não tiver ele não trás nada). Se eu der:
+
+c:\workspace> dir ( vai aparecer as pastas que tem e vai esta la a pasta criada).
+
+
+ ** Apagar o arquivo da pasta:
+
+c:\>del workspace (enter) aparece:
+
+c:\>workspace \*, tem certeza (S/N) ? S »» se eu entrar no c essa pasta ainda existe, por que na realidade esse comando apaga apenas o arquivo que esta dentro da pasta.
+
+
+ ******DICA: se eu quiser voltar nos comandos que ja fiz pra trás, apenas uso a seta pra cima do teclado. ******
+
+EX:
+
+c:\workspace>(seta do teclado pra cima) e vou dando enter e assim navego em tudo que já fiz nessa pasta
+
+
+ ** Apagar a pasta (repositorio):
+
+c:\>rmdir (nome da pasta- workspace) /S /Q e dou enter
+
+c:\>dir ( não terá mais nada dentro dela) com esse nome

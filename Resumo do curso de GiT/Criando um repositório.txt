@@ -1,0 +1,58 @@
+
+
+ ** Criar um repositório **
+
+1- crio uma pasta dentro do C do meu pc, no caso criei » worspace
+
+2 - abri o Git bash dentro do C, assim ficou mais fácil os comandos :
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c
+$ ls
+
+ ** Aqui dei ls, para puxar tudo que tem dentro do C, pra que eu verificasse e ele listou **:
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c
+$ cd workspace/
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace
+$ mkdir livro-receitas
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace
+$ ls
+livro-receitas/
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace
+$ cd livro-receitas/
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace/livro-receitas
+$ git init
+
+Initialized empty Git repository in C:/workspace/livro-receitas/.git/
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace/livro-receitas (master)
+$ ls
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace/livro-receitas (master)
+$ ls -a      »»»»  -a (é que mostra os ocultos dentro das pastas)
+./  ../  .git/
+
+
+ ** Essa pasta que aparece, ela fica oculta por que é onde esta os comandos do git **:
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace/livro-receitas (master)
+$ cd .git/
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace/livro-receitas/.git (GIT_DIR!)
+$ ls
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace/livro-receitas/.git (GIT_DIR!)
+$ cd ..
+
+ ** Como era  a primeira vez que ia usar gitbash precisei configurar como esta logo abaixo **:
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace/livro-receitas (master)
+$ git config --global user.email "[]()"
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 /c/workspace/livro-receitas (master)
+$ git config --global [user.name](http://user.name/) 

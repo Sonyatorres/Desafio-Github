@@ -1,0 +1,16 @@
+
+
+ ** Criando e configurando um Token no GITHUB ** :
+
+
+- Vou em configurações do gitHub, vou em developer settings  » token de acesso pessoal » token clasico » gerar novo token em Generate new token, coloco nome no token e  marco **reco e clico em gerar token e já guardo o token que foi gerado em algum local seguro, pois qdo eu sair da pagina, não consigo mais ter acesso a ele.
+
+
+ ** Esses passos abaixo é para verificar o token no Github ** :
+
+- Tenho que ir no github onde tem o code e colar o https que esta la para poder colocar no Git bash, no caso o meu que copiei foi »  https://github.com/xxxxxxx/Projeto-2-Clinica-veterinaria.git
+
+- Quando vamos para o Git bash, damos os mesmos comandos :
+
+sonya@LAPTOP-MCK6O0PQ MINGW64 ~/.ssh
+$ git clone » e aqui colocamos o Https que copiamos, ele ja reconhece e pede a chave do token e colocamos e esta feito.
