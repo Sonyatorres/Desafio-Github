@@ -1,4 +1,4 @@
-# Desafio Git-Github final para a DIO.
+# Desafio Git-GitHub - DIO.
 Repositório criado com meus resumos das aulas estudadas
 
 ## Links Úteis 
