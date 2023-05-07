@@ -1,5 +1,5 @@
 # Desafio Git-GitHub - DIO.
-Repositório criado com meus resumos das aulas estudadas
+Criando seu Primeiro Repositório no GitHub com o Git Bash - 
 
 ## Links Úteis 
 [Sintaxes básicas de Markdown](https://www.markdownguide.org/getting-started/)
